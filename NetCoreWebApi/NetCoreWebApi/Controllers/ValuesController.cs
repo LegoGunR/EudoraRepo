@@ -28,6 +28,14 @@ namespace NetCoreWebApi.Controllers
         [HttpPost]
         public void Post([FromBody] string value)
         {
+            
+        }
+
+        // POST api/values
+        [HttpPost]
+        public void Post([FromBody] string value, [FromBody] string otherValue)
+        {
+
         }
 
         // PUT api/values/5
